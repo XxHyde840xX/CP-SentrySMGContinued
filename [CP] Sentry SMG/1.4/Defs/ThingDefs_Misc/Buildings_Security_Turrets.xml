@@ -50,8 +50,8 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0.6</Flammability>
       <WorkToBuild>1000</WorkToBuild>
-      <Mass>6</Mass>
-      <Beauty>-20</Beauty>
+      <Mass>5</Mass>
+      <Beauty>-15</Beauty>
       <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -65,7 +65,7 @@
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>75</basePowerConsumption>
+        <basePowerConsumption>35</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -77,7 +77,7 @@
             <li>Steel</li>
           </thingDefs>
         </fuelFilter>
-        <fuelCapacity>150</fuelCapacity>
+        <fuelCapacity>175</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
         <autoRefuelPercent>0.75</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
@@ -96,10 +96,10 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>30</costStuffCount>
     <costList>
-      <Steel>70</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>35</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -130,9 +130,9 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>7</damageAmountBase>
-	  <stoppingPower>0.3</stoppingPower>
-	  <armorPenetrationBase>0.62</armorPenetrationBase>
+      <damageAmountBase>8</damageAmountBase>
+	  <stoppingPower>0.4</stoppingPower>
+	  <armorPenetrationBase>0.65</armorPenetrationBase>
       <speed>65</speed>
     </projectile>
   </ThingDef>	    
@@ -153,7 +153,7 @@
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
-      <Mass>5</Mass>
+      <Mass>4</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <verbs>
